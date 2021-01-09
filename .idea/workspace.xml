@@ -30,6 +30,15 @@
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
+  <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\User\Documents\GitHub\COMP2000\com\Classes" />
+      <recent name="C:\Users\User\Documents\GitHub\COMP2000\com" />
+    </key>
+  </component>
   <component name="RunManager" selected="Application.CheckOut">
     <configuration name="Admin" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Admin" />
@@ -71,7 +80,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1610195865600</updated>
-      <workItem from="1610195867105" duration="10013000" />
+      <workItem from="1610195867105" duration="12097000" />
     </task>
     <servers />
   </component>
@@ -79,29 +88,41 @@
     <option name="version" value="3" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="446" y="47" key="#com.intellij.ide.util.MemberChooser" timestamp="1610207398509">
+    <state x="446" y="47" key="#com.intellij.ide.util.MemberChooser" timestamp="1610207728919">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="446" y="47" key="#com.intellij.ide.util.MemberChooser/0.0.1280.680@0.0.1280.680" timestamp="1610207398509" />
+    <state x="446" y="47" key="#com.intellij.ide.util.MemberChooser/0.0.1280.680@0.0.1280.680" timestamp="1610207728919" />
+    <state x="321" y="265" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1610209303998">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="321" y="265" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.0.1280.680@0.0.1280.680" timestamp="1610209303998" />
+    <state x="424" y="206" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1610209333268">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="424" y="206" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1280.680@0.0.1280.680" timestamp="1610209333268" />
+    <state x="438" y="222" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.packages" timestamp="1610209293466">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="438" y="222" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.packages/0.0.1280.680@0.0.1280.680" timestamp="1610209293466" />
     <state x="421" y="96" key="FileChooserDialogImpl" timestamp="1610198175308">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="421" y="96" key="FileChooserDialogImpl/0.0.1280.680@0.0.1280.680" timestamp="1610198175308" />
-    <state width="1237" height="163" key="GridCell.Tab.0.bottom" timestamp="1610207457157">
+    <state width="1237" height="163" key="GridCell.Tab.0.bottom" timestamp="1610209638779">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="163" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1610207457157" />
-    <state width="1237" height="163" key="GridCell.Tab.0.center" timestamp="1610207457157">
+    <state width="1237" height="163" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1610209638779" />
+    <state width="1237" height="163" key="GridCell.Tab.0.center" timestamp="1610209638779">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="163" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1610207457157" />
-    <state width="1237" height="163" key="GridCell.Tab.0.left" timestamp="1610207457157">
+    <state width="1237" height="163" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1610209638779" />
+    <state width="1237" height="163" key="GridCell.Tab.0.left" timestamp="1610209638778">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="163" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1610207457157" />
-    <state width="1237" height="163" key="GridCell.Tab.0.right" timestamp="1610207457157">
+    <state width="1237" height="163" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1610209638778" />
+    <state width="1237" height="163" key="GridCell.Tab.0.right" timestamp="1610209638779">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="163" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1610207457157" />
+    <state width="1237" height="163" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1610209638779" />
   </component>
 </project>

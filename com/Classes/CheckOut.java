@@ -1,4 +1,4 @@
-import Classes.Stock;
+package Classes;
 
 import javax.swing.*;
 import java.awt.event.ActionEvent;
@@ -11,6 +11,7 @@ public class CheckOut {
     private JButton cardButton;
     private JButton ADMINButton;
     private JButton confirmButton;
+    private javax.swing.JScrollPane JScrollPane;
 
     public CheckOut() {
 
@@ -21,18 +22,28 @@ public class CheckOut {
                 Admin.main(args);
             }
         });
+        confirmButton.addActionListener(new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent e) {
+
+            }
+        });
     }
 
     public static void main(String[] args)
     {
         Stock ShopStock = new Stock();
-        Main.Main.LoadItems(ShopStock);
+        Main.LoadItems(ShopStock);
 
         JFrame frame = new JFrame("CheckOut");
         frame.setContentPane(new CheckOut().panel1);
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         frame.pack();
         frame.setVisible(true);
+    }
+    public static void updateReciept()
+    {
+
     }
 }
 
