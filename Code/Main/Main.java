@@ -17,7 +17,7 @@ public class Main {
 
     }
 
-    static void LoadItems(Stock ShopStock)
+    public static void LoadItems(Stock ShopStock)
     {
         File Stock = new File("Stock.txt");
         try {

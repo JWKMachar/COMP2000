@@ -30,7 +30,7 @@
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
-  <component name="RunManager" selected="Application.Admin">
+  <component name="RunManager" selected="Application.CheckOut">
     <configuration name="Admin" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Admin" />
       <module name="COMP2000" />
@@ -58,8 +58,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Admin" />
         <item itemvalue="Application.CheckOut" />
+        <item itemvalue="Application.Admin" />
       </list>
     </recent_temporary>
   </component>
@@ -71,7 +71,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1610195865600</updated>
-      <workItem from="1610195867105" duration="8753000" />
+      <workItem from="1610195867105" duration="10013000" />
     </task>
     <servers />
   </component>
@@ -79,25 +79,29 @@
     <option name="version" value="3" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="446" y="47" key="#com.intellij.ide.util.MemberChooser" timestamp="1610207398509">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="446" y="47" key="#com.intellij.ide.util.MemberChooser/0.0.1280.680@0.0.1280.680" timestamp="1610207398509" />
     <state x="421" y="96" key="FileChooserDialogImpl" timestamp="1610198175308">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="421" y="96" key="FileChooserDialogImpl/0.0.1280.680@0.0.1280.680" timestamp="1610198175308" />
-    <state width="1237" height="163" key="GridCell.Tab.0.bottom" timestamp="1610205358578">
+    <state width="1237" height="163" key="GridCell.Tab.0.bottom" timestamp="1610207457157">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="163" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1610205358578" />
-    <state width="1237" height="163" key="GridCell.Tab.0.center" timestamp="1610205358578">
+    <state width="1237" height="163" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1610207457157" />
+    <state width="1237" height="163" key="GridCell.Tab.0.center" timestamp="1610207457157">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="163" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1610205358578" />
-    <state width="1237" height="163" key="GridCell.Tab.0.left" timestamp="1610205358578">
+    <state width="1237" height="163" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1610207457157" />
+    <state width="1237" height="163" key="GridCell.Tab.0.left" timestamp="1610207457157">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="163" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1610205358578" />
-    <state width="1237" height="163" key="GridCell.Tab.0.right" timestamp="1610205358578">
+    <state width="1237" height="163" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1610207457157" />
+    <state width="1237" height="163" key="GridCell.Tab.0.right" timestamp="1610207457157">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="163" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1610205358578" />
+    <state width="1237" height="163" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1610207457157" />
   </component>
 </project>
