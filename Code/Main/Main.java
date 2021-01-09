@@ -3,6 +3,7 @@ package Main;
 import Classes.Item;
 import Classes.Stock;
 
+import javax.swing.*;
 import java.io.File;
 import java.io.FileNotFoundException;
 import java.util.Scanner;
@@ -13,6 +14,7 @@ public class Main {
     {
         Stock ShopStock = new Stock();
         LoadItems(ShopStock);
+
     }
 
     static void LoadItems(Stock ShopStock)
