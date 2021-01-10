@@ -28,7 +28,8 @@
     <property name="UI_DESIGNER_EDITOR_MODE.UIDesignerToolWindowManager.WIDTH" value="206" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="extract.method.default.visibility" value="private" />
+    <property name="last_opened_file_path" value="$USER_HOME$/modelio/workspace/Comp2001_ERD" />
   </component>
   <component name="RecentsManager">
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
@@ -125,7 +126,7 @@
       <option name="presentableId" value="Default" />
       <updated>1610195865600</updated>
       <workItem from="1610195867105" duration="12097000" />
-      <workItem from="1610230366327" duration="14150000" />
+      <workItem from="1610230366327" duration="19260000" />
     </task>
     <servers />
   </component>
@@ -133,10 +134,14 @@
     <option name="version" value="3" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="446" y="47" key="#com.intellij.ide.util.MemberChooser" timestamp="1610292513600">
+    <state x="412" y="143" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1610297314166">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="446" y="47" key="#com.intellij.ide.util.MemberChooser/0.0.1280.680@0.0.1280.680" timestamp="1610292513600" />
+    <state x="412" y="143" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1280.680@0.0.1280.680" timestamp="1610297314166" />
+    <state x="446" y="47" key="#com.intellij.ide.util.MemberChooser" timestamp="1610292924882">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="446" y="47" key="#com.intellij.ide.util.MemberChooser/0.0.1280.680@0.0.1280.680" timestamp="1610292924882" />
     <state x="321" y="265" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1610209303998">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
@@ -149,26 +154,26 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="438" y="222" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.packages/0.0.1280.680@0.0.1280.680" timestamp="1610209293466" />
-    <state x="421" y="96" key="FileChooserDialogImpl" timestamp="1610198175308">
+    <state x="421" y="96" key="FileChooserDialogImpl" timestamp="1610298524279">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="421" y="96" key="FileChooserDialogImpl/0.0.1280.680@0.0.1280.680" timestamp="1610198175308" />
-    <state width="1237" height="150" key="GridCell.Tab.0.bottom" timestamp="1610292331015">
+    <state x="421" y="96" key="FileChooserDialogImpl/0.0.1280.680@0.0.1280.680" timestamp="1610298524279" />
+    <state width="1237" height="150" key="GridCell.Tab.0.bottom" timestamp="1610298971621">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="150" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1610292331015" />
-    <state width="1237" height="150" key="GridCell.Tab.0.center" timestamp="1610292331015">
+    <state width="1237" height="150" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1610298971621" />
+    <state width="1237" height="150" key="GridCell.Tab.0.center" timestamp="1610298971621">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="150" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1610292331015" />
-    <state width="1237" height="150" key="GridCell.Tab.0.left" timestamp="1610292331015">
+    <state width="1237" height="150" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1610298971621" />
+    <state width="1237" height="150" key="GridCell.Tab.0.left" timestamp="1610298971620">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="150" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1610292331015" />
-    <state width="1237" height="150" key="GridCell.Tab.0.right" timestamp="1610292331015">
+    <state width="1237" height="150" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1610298971620" />
+    <state width="1237" height="150" key="GridCell.Tab.0.right" timestamp="1610298971621">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="150" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1610292331015" />
+    <state width="1237" height="150" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1610298971621" />
     <state width="1237" height="204" key="GridCell.Tab.1.bottom" timestamp="1610288771485">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
@@ -189,6 +194,10 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="180" y="52" width="921" height="628" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2/0.0.1280.680@0.0.1280.680" timestamp="1610283588631" />
+    <state x="371" y="102" key="extract.method.dialog" timestamp="1610295560273">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="371" y="102" key="extract.method.dialog/0.0.1280.680@0.0.1280.680" timestamp="1610295560273" />
     <state x="303" y="1" width="672" height="678" key="search.everywhere.popup" timestamp="1610292537105">
       <screen x="0" y="0" width="1280" height="680" />
     </state>

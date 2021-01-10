@@ -52,7 +52,7 @@ public class Dataview {
         confirmChangesButton.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
-                
+                Main.pushData(CheckOut.ShopStock);
             }
         });
     }
