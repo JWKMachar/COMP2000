@@ -3,7 +3,7 @@
   <grid id="27dc6" layout-manager="GridLayoutManager" row-count="1" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
     <margin top="0" left="0" bottom="0" right="0"/>
     <constraints>
-      <xy x="20" y="20" width="637" height="400"/>
+      <xy x="20" y="20" width="726" height="400"/>
     </constraints>
     <properties/>
     <border type="none"/>
@@ -67,14 +67,6 @@
               <text value="New Stock:"/>
             </properties>
           </component>
-          <component id="202d3" class="javax.swing.JButton" binding="confirmNewStockButton" default-binding="true">
-            <constraints>
-              <grid row="4" column="4" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
-            </constraints>
-            <properties>
-              <text value="Confirm New Stock"/>
-            </properties>
-          </component>
           <component id="1247c" class="javax.swing.JButton" binding="LOADDATAButton" default-binding="true">
             <constraints>
               <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
@@ -89,6 +81,30 @@
             </constraints>
             <properties>
               <text value="Select Stock"/>
+            </properties>
+          </component>
+          <component id="3520c" class="javax.swing.JButton" binding="addStockButton" default-binding="true">
+            <constraints>
+              <grid row="4" column="4" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <text value="Add Stock"/>
+            </properties>
+          </component>
+          <component id="d7058" class="javax.swing.JButton" binding="confirmChangesButton" default-binding="true">
+            <constraints>
+              <grid row="4" column="5" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <text value="Confirm Changes"/>
+            </properties>
+          </component>
+          <component id="bebcb" class="javax.swing.JButton" binding="removeStockButton" default-binding="true">
+            <constraints>
+              <grid row="3" column="4" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <text value="Remove Stock"/>
             </properties>
           </component>
         </children>

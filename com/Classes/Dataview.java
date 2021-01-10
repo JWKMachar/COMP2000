@@ -13,15 +13,11 @@ public class Dataview {
     private JButton confirmNewStockButton;
     private JButton LOADDATAButton;
     private JButton selectStockButton;
+    private JButton removeStockButton;
+    private JButton addStockButton;
+    private JButton confirmChangesButton;
 
     public Dataview() {
-        confirmNewStockButton.addActionListener(new ActionListener() {
-            @Override
-            public void actionPerformed(ActionEvent e)
-            {
-                
-            }
-        });
         LOADDATAButton.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
@@ -35,6 +31,28 @@ public class Dataview {
             public void actionPerformed(ActionEvent e)
             {
                 lblCurrentStock.setText(String.valueOf(CheckOut.ShopStock.Amount[comboBox1.getSelectedIndex()]));
+            }
+        });
+        addStockButton.addActionListener(new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent e)
+            {
+                CheckOut.ShopStock.Amount[comboBox1.getSelectedIndex()] =  CheckOut.ShopStock.Amount[comboBox1.getSelectedIndex()] + Integer.parseInt(textField1.getText());
+                lblCurrentStock.setText(String.valueOf(CheckOut.ShopStock.Amount[comboBox1.getSelectedIndex()]));
+            }
+        });
+        removeStockButton.addActionListener(new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent e)
+            {
+                CheckOut.ShopStock.Amount[comboBox1.getSelectedIndex()] =  CheckOut.ShopStock.Amount[comboBox1.getSelectedIndex()] - Integer.parseInt(textField1.getText());
+                lblCurrentStock.setText(String.valueOf(CheckOut.ShopStock.Amount[comboBox1.getSelectedIndex()]));
+            }
+        });
+        confirmChangesButton.addActionListener(new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent e) {
+                
             }
         });
     }
