@@ -24,8 +24,7 @@ public class CheckOut {
         ADMINButton.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
-                String[] args = null;
-                Admin.main(args);
+                Admin.main(null);
             }
         });
         confirmButton.addActionListener(new ActionListener() {
