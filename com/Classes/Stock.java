@@ -15,23 +15,19 @@ public class Stock {
         Amount[Position] = inAmount;
     }
 
-    public Classes.Item getItem(int ItemCode)
-    {
-        int i = 0;
-        while(ItemCode != Products[i].getItemCode()) {
-            i = i++;
-            if (i < Products.length) {
-                return null;
-            }
+    public Classes.Item getItem(int ItemCode) {
+        if (ItemCode < Products.length)
+        {
+            return Products[ItemCode];
         }
-        return Products[i];
+        return null;
     }
     public int getAmount(int ItemCode)
     {
         int i = 0;
         while(ItemCode != Products[i].getItemCode()) {
-            i = i++;
-            if (i > Products.length) {
+            i = i + 1;
+            if (i >= Products.length) {
                 return -1;
             }
         }
@@ -41,8 +37,8 @@ public class Stock {
     {
         int i = 0;
         while(ItemCode != Products[i].getItemCode()) {
-            i = i++;
-            if (i > Products.length) {
+            i = i + 1;
+            if (i >= Products.length) {
                 return false;
             }
         }

@@ -32,7 +32,8 @@ public class CheckOut {
             @Override
             public void actionPerformed(ActionEvent e) {
                 int inItemCode = Integer.parseInt(textField1.getText());
-                if (ShopStock.checkItem(inItemCode)) {
+                if (ShopStock.checkItem(inItemCode))
+                {
                     Item newItem = ShopStock.getItem(inItemCode);
                     thisOrder.AddItem(newItem);
                     {
