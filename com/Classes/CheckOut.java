@@ -1,17 +1,23 @@
 package Classes;
 
+
 import javax.swing.*;
+import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 
 public class CheckOut {
+    public static CurrentOrder thisOrder = new CurrentOrder();
+    public static Stock ShopStock = new Stock();
     private JPanel panel1;
     private JButton cashButton;
-    private JTextField textField1;
+    public JTextField textField1;
     private JButton cardButton;
     private JButton ADMINButton;
     private JButton confirmButton;
-    private javax.swing.JScrollPane JScrollPane;
+    private JScrollPane ReceiptBox;
+    public JList list1;
+    private JTextField textField2;
 
     public CheckOut() {
 
@@ -25,14 +31,23 @@ public class CheckOut {
         confirmButton.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
-
+                int inItemCode = Integer.parseInt(textField1.getText());
+                if (ShopStock.checkItem(inItemCode)) {
+                    Item newItem = ShopStock.getItem(inItemCode);
+                    thisOrder.AddItem(newItem);
+                    {
+                        list1.setListData(thisOrder.Receipt.getItems());
+                    }
+                }
             }
         });
     }
 
+
+
     public static void main(String[] args)
     {
-        Stock ShopStock = new Stock();
+
         Main.LoadItems(ShopStock);
 
         JFrame frame = new JFrame("CheckOut");
@@ -40,10 +55,6 @@ public class CheckOut {
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         frame.pack();
         frame.setVisible(true);
-    }
-    public static void updateReciept()
-    {
-
     }
 }
 

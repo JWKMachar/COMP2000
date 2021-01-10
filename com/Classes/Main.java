@@ -18,11 +18,11 @@ public class Main {
 
     public static void LoadItems(Stock ShopStock)
     {
-        File Stock = new File("Stock.txt");
+        File Stock = new File("Resources/Stock.txt");
         try {
             Scanner Reader = new Scanner(Stock);
             int i = 0;
-            while (i <= 10)
+            while (i < 10)
             {
                 String TEMPName = Reader.nextLine();
                 int TEMPItemCode = Integer.parseInt(Reader.nextLine());

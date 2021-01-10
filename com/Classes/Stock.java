@@ -1,8 +1,9 @@
 package Classes;
 
 public class Stock {
-    Item[] Products = new Item[10];
-    int[] Amount = new int[10];
+    int totalProducts = 10;
+    Item[] Products = new Item[totalProducts];
+    int[] Amount = new int[totalProducts];
 
     public Stock()
     {
@@ -14,26 +15,37 @@ public class Stock {
         Amount[Position] = inAmount;
     }
 
-    Item getItem(int ItemCode)
+    public Classes.Item getItem(int ItemCode)
     {
         int i = 0;
         while(ItemCode != Products[i].getItemCode()) {
             i = i++;
-            if (i > 10) {
+            if (i < Products.length) {
                 return null;
             }
         }
         return Products[i];
     }
-    int getAmount(int ItemCode)
+    public int getAmount(int ItemCode)
     {
         int i = 0;
         while(ItemCode != Products[i].getItemCode()) {
             i = i++;
-            if (i > 10) {
+            if (i > Products.length) {
                 return -1;
             }
         }
         return Amount[i];
+    }
+    public boolean checkItem(int ItemCode)
+    {
+        int i = 0;
+        while(ItemCode != Products[i].getItemCode()) {
+            i = i++;
+            if (i > Products.length) {
+                return false;
+            }
+        }
+        return true;
     }
 }

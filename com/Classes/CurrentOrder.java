@@ -2,10 +2,8 @@ package Classes;
 
 import java.awt.*;
 
-import Classes.CheckOut;
-
 public class CurrentOrder {
-    List Reciept = new List();
+    List Receipt = new List();
 
     public CurrentOrder()
     {
@@ -14,9 +12,8 @@ public class CurrentOrder {
 
     public void AddItem(Item newItem)
     {
-        Reciept.add(String.valueOf(newItem.ItemCode));
-
-       CheckOut.updateReciept();
+        Receipt.add(String.valueOf(newItem.Name));
     }
+
 
 }
