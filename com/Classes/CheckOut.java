@@ -44,7 +44,7 @@ public class CheckOut {
         cashButton.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
-
+                Cash.main(null);
             }
         });
         cardButton.addActionListener(new ActionListener() {
@@ -59,7 +59,6 @@ public class CheckOut {
 
     public static void main(String[] args)
     {
-
         Main.LoadItems(ShopStock);
 
         JFrame frame = new JFrame("CheckOut");
