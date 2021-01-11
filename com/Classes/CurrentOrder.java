@@ -6,7 +6,7 @@ public class CurrentOrder {
     List Receipt = new List();
     List ReceiptCode = new List();
     int ItemCount = 0;
-
+    String PaymentType = "";
     public CurrentOrder()
     {
 
@@ -23,5 +23,6 @@ public class CurrentOrder {
     {
         return ItemCount;
     }
+
 
 }

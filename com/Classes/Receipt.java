@@ -1,8 +1,10 @@
 package Classes;
 
 import javax.swing.*;
+import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
+import java.text.DecimalFormat;
 
 public class Receipt {
 
@@ -15,15 +17,24 @@ public class Receipt {
             @Override
             public void actionPerformed(ActionEvent e)
             {
+                List ReceiptList = new List();
                 int length = CheckOut.thisOrder.Length();
                 for (int i = 0; i < length; i++) {
                     int ItemCode = Integer.parseInt(CheckOut.thisOrder.ReceiptCode.getItem(i));
                     String ItemName = CheckOut.ShopStock.getItem(ItemCode).Name;
                     double ItemPrice = CheckOut.ShopStock.getItem(ItemCode).Price;
                     String AddItem = ItemName + " " + ItemPrice;
-                    list1.setListData(AddItem);
-
+                    ReceiptList.add(AddItem);
                 }
+                double Total = 0.0;
+                for (int i = 0; i < length; i++) {
+                    int ItemCode = Integer.parseInt(CheckOut.thisOrder.ReceiptCode.getItem(i));
+                    Total = Total + CheckOut.ShopStock.getItem(ItemCode).getPrice();
+                }
+                DecimalFormat df = new DecimalFormat("#.00");
+                String TotalDF = df.format(Total);
+                ReceiptList.add("Total Cost " + TotalDF + " " + CheckOut.thisOrder.PaymentType);
+                list1.setListData(ReceiptList.getItems());
             }
         });
     }

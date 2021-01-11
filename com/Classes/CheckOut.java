@@ -43,14 +43,18 @@ public class CheckOut {
         });
         cashButton.addActionListener(new ActionListener() {
             @Override
-            public void actionPerformed(ActionEvent e) {
+            public void actionPerformed(ActionEvent e)
+            {
                 Cash.main(null);
+                thisOrder.PaymentType = "Cash";
             }
         });
         cardButton.addActionListener(new ActionListener() {
             @Override
-            public void actionPerformed(ActionEvent e) {
-
+            public void actionPerformed(ActionEvent e)
+            {
+                Card.main(null);
+                thisOrder.PaymentType = "Card";
             }
         });
     }
