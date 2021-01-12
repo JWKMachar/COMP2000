@@ -11,6 +11,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="JUnit5 Test Class" />
       </list>
     </option>
   </component>
@@ -23,17 +24,29 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="Downloaded.Files.Path.Enabled" value="false" />
+    <property name="Repository.Attach.Annotations" value="false" />
+    <property name="Repository.Attach.JavaDocs" value="false" />
+    <property name="Repository.Attach.Sources" value="false" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="UI_DESIGNER_EDITOR_MODE.PaletteManager.SHOW" value="true" />
     <property name="UI_DESIGNER_EDITOR_MODE.PaletteManager.WIDTH" value="142" />
     <property name="UI_DESIGNER_EDITOR_MODE.UIDesignerToolWindowManager.WIDTH" value="206" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
     <property name="extract.method.default.visibility" value="private" />
     <property name="last_opened_file_path" value="$USER_HOME$/modelio/workspace/Comp2001_ERD" />
   </component>
   <component name="RecentsManager">
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="Classes" />
+    </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
@@ -41,20 +54,7 @@
       <recent name="C:\Users\User\Documents\GitHub\COMP2000\com" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.CheckOut (1)">
-    <configuration name="Admin (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Classes.Admin" />
-      <module name="COMP2000" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Classes.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="JUnit.CurrentOrderTest.TESTCurrentOrder">
     <configuration name="Card" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Classes.Card" />
       <module name="COMP2000" />
@@ -81,26 +81,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CheckOut" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="CheckOut" />
-      <module name="COMP2000" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Dataview" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Classes.Dataview" />
-      <module name="COMP2000" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Classes.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
@@ -112,13 +92,61 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="CurrentOrderTest.TESTCurrentOrder" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="COMP2000" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Classes.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Classes" />
+      <option name="MAIN_CLASS_NAME" value="Classes.CurrentOrderTest" />
+      <option name="METHOD_NAME" value="TESTCurrentOrder" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ItemTest.TESTItem" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="COMP2000" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Classes.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Classes" />
+      <option name="MAIN_CLASS_NAME" value="Classes.ItemTest" />
+      <option name="METHOD_NAME" value="TESTItem" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StockTest.TESTgetItem" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="COMP2000" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Classes.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Classes" />
+      <option name="MAIN_CLASS_NAME" value="Classes.StockTest" />
+      <option name="METHOD_NAME" value="TESTgetItem" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.CurrentOrderTest.TESTCurrentOrder" />
+        <item itemvalue="JUnit.StockTest.TESTgetItem" />
+        <item itemvalue="JUnit.ItemTest.TESTItem" />
         <item itemvalue="Application.CheckOut (1)" />
         <item itemvalue="Application.Card" />
-        <item itemvalue="Application.Dataview" />
-        <item itemvalue="Application.Admin (1)" />
-        <item itemvalue="Application.CheckOut" />
       </list>
     </recent_temporary>
   </component>
@@ -134,7 +162,7 @@
       <workItem from="1610230366327" duration="19696000" />
       <workItem from="1610323397459" duration="9053000" />
       <workItem from="1610378911922" duration="1791000" />
-      <workItem from="1610451326130" duration="3902000" />
+      <workItem from="1610451326130" duration="5754000" />
     </task>
     <servers />
   </component>
@@ -162,46 +190,54 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="438" y="222" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.packages/0.0.1280.680@0.0.1280.680" timestamp="1610209293466" />
-    <state width="480" height="438" key="DebuggerActiveHint" timestamp="1610328169340">
+    <state width="480" height="438" key="DebuggerActiveHint" timestamp="1610462780708">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="480" height="438" key="DebuggerActiveHint/0.0.1280.680@0.0.1280.680" timestamp="1610328169340" />
+    <state width="480" height="438" key="DebuggerActiveHint/0.0.1280.680@0.0.1280.680" timestamp="1610462780708" />
     <state x="421" y="96" key="FileChooserDialogImpl" timestamp="1610298524279">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="421" y="96" key="FileChooserDialogImpl/0.0.1280.680@0.0.1280.680" timestamp="1610298524279" />
-    <state width="1237" height="150" key="GridCell.Tab.0.bottom" timestamp="1610457320762">
+    <state width="1237" height="204" key="GridCell.Tab.0.bottom" timestamp="1610463167526">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="150" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1610457320762" />
-    <state width="1237" height="150" key="GridCell.Tab.0.center" timestamp="1610457320762">
+    <state width="1237" height="204" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1610463167526" />
+    <state width="1237" height="204" key="GridCell.Tab.0.center" timestamp="1610463167526">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="150" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1610457320762" />
-    <state width="1237" height="150" key="GridCell.Tab.0.left" timestamp="1610457320762">
+    <state width="1237" height="204" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1610463167526" />
+    <state width="1237" height="204" key="GridCell.Tab.0.left" timestamp="1610463167526">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="150" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1610457320762" />
-    <state width="1237" height="150" key="GridCell.Tab.0.right" timestamp="1610457320762">
+    <state width="1237" height="204" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1610463167526" />
+    <state width="1237" height="204" key="GridCell.Tab.0.right" timestamp="1610463167526">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="150" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1610457320762" />
-    <state width="1237" height="204" key="GridCell.Tab.1.bottom" timestamp="1610332817390">
+    <state width="1237" height="204" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1610463167526" />
+    <state width="1237" height="204" key="GridCell.Tab.1.bottom" timestamp="1610463167526">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="204" key="GridCell.Tab.1.bottom/0.0.1280.680@0.0.1280.680" timestamp="1610332817390" />
-    <state width="1237" height="204" key="GridCell.Tab.1.center" timestamp="1610332817390">
+    <state width="1237" height="204" key="GridCell.Tab.1.bottom/0.0.1280.680@0.0.1280.680" timestamp="1610463167526" />
+    <state width="1237" height="204" key="GridCell.Tab.1.center" timestamp="1610463167526">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="204" key="GridCell.Tab.1.center/0.0.1280.680@0.0.1280.680" timestamp="1610332817390" />
-    <state width="1237" height="204" key="GridCell.Tab.1.left" timestamp="1610332817390">
+    <state width="1237" height="204" key="GridCell.Tab.1.center/0.0.1280.680@0.0.1280.680" timestamp="1610463167526" />
+    <state width="1237" height="204" key="GridCell.Tab.1.left" timestamp="1610463167526">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="204" key="GridCell.Tab.1.left/0.0.1280.680@0.0.1280.680" timestamp="1610332817390" />
-    <state width="1237" height="204" key="GridCell.Tab.1.right" timestamp="1610332817390">
+    <state width="1237" height="204" key="GridCell.Tab.1.left/0.0.1280.680@0.0.1280.680" timestamp="1610463167526" />
+    <state width="1237" height="204" key="GridCell.Tab.1.right" timestamp="1610463167526">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="204" key="GridCell.Tab.1.right/0.0.1280.680@0.0.1280.680" timestamp="1610332817390" />
+    <state width="1237" height="204" key="GridCell.Tab.1.right/0.0.1280.680@0.0.1280.680" timestamp="1610463167526" />
+    <state x="376" y="233" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD" timestamp="1610461411846">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="376" y="233" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD/0.0.1280.680@0.0.1280.680" timestamp="1610461411846" />
+    <state x="646" y="81" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1610462919075">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="646" y="81" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.0.1280.680@0.0.1280.680" timestamp="1610462919075" />
     <state x="180" y="52" width="921" height="628" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2" timestamp="1610283588631">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
