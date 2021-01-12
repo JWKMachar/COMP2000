@@ -11,7 +11,7 @@ public class CurrentOrder {
     {
 
     }
-
+    //stores information about item given
     public void AddItem(Item newItem)
     {
         Receipt.add(String.valueOf(newItem.Name));
@@ -19,6 +19,7 @@ public class CurrentOrder {
         ItemCount = ItemCount + 1;
     }
 
+    //returns the itemcount
     public int Length()
     {
         return ItemCount;

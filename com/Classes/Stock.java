@@ -8,20 +8,23 @@ public class Stock {
     public Stock()
     {
     }
-
+    //stores information about an item so as to be used as a stock value
     public void addStock(Item inProduct, int inAmount, int Position)
     {
         Products[Position] = inProduct;
         Amount[Position] = inAmount;
     }
 
-    public Classes.Item getItem(int ItemCode) {
+    //takes an item code and returns the item itself
+    public Classes.Item getItem(int ItemCode)
+    {
         if (ItemCode < Products.length)
         {
             return Products[ItemCode];
         }
         return null;
     }
+    //takes an item code and returns the amount in stock
     public int getAmount(int ItemCode)
     {
         int i = 0;
@@ -33,6 +36,7 @@ public class Stock {
         }
         return Amount[i];
     }
+    //takes an item code and returns true if the item exists in the database
     public boolean checkItem(int ItemCode)
     {
         int i = 0;

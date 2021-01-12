@@ -15,7 +15,7 @@ public class Main {
     {
 
     }
-
+    //loads data from file and absorbs it into stock and item datatypes
     public static void LoadItems(Stock ShopStock)
     {
         File Stock = new File("Resources/Stock");
@@ -34,6 +34,8 @@ public class Main {
             }
         } catch (FileNotFoundException e) { e.printStackTrace(); }
     }
+
+    //reformats and then pushes data into file
     public static void pushData(Stock ShopStock)
     {
         File Stock = new File("Resources/Stock");
